@@ -6,8 +6,8 @@
 
 
 function greeting(name) {
-    console.log(`Привет ${name}, рад тебя видеть!`);
-  }
+console.log(`Привет ${name}, рад тебя видеть!`);
+}
   
-  let userName = prompt("Введите ваше имя:");
-  greeting(userName);
+const userName = prompt("Введите ваше имя:");
+greeting(userName);

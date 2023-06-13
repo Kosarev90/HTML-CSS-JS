@@ -9,8 +9,9 @@
 // Примечания: Пользователь всегда вводит корректное число.
 // Советую округлить значение после расчетов, так как в некоторых случаях может получиться "длинная дробь"
 
-let tempCelsia = Number.parseFloat(prompt("Введите тепмературу в градусах Цельсия: "))
+const tempCelsia = Number.parseFloat(prompt("Введите тепмературу в градусах Цельсия: "));
 
-let tempFarengeit = Number.parseFloat((9/5)*tempCelsia + 32).toFixed(2)
+const tempFarengeit = Number.parseFloat((9/5)*tempCelsia + 32);
 
-alert(`Цельсий: ${tempCelsia}, Фаренгейт: ${tempFarengeit}`)
+
+alert(`Цельсий: ${tempCelsia}, Фаренгейт: ${tempFarengeit.toFixed(2)}`);
